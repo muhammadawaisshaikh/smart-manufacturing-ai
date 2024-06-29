@@ -9,13 +9,14 @@ import ContactModal from "./ContactModal";
 
 const LandingPage = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const toggleModal = () => setIsOpen(!isOpen);
 
   return (
     <>
       <Navbar transparent />
-      <div className="relative pt-30 pb-32 flex content-center items-center justify-center min-h-screen-75">
+
+      <div className="relative pt-20 pb-32 flex content-center items-center justify-center min-h-screen-75">
         <div
           className="absolute top-0 w-full h-full bg-center bg-cover"
           style={{
@@ -63,13 +64,73 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <section className="py-10 container mx-auto px-7">
-        <div className="bg-white w-full shadow-lg rounded-lg p-10">
-          <img className="w-ful block m-auto" src="https://i.ibb.co/QHL3gfq/shared-image.jpg" alt="Modules" />
+      <section className="bg-blueGray-200 -mt-24">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap">
+            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="px-4 py-5 flex-auto">
+                  <div className="text-white bg-orange-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                    <i className="fas fa-brain"></i>
+                  </div>
+                  <h6 className="text-xl font-semibold">Data-Driven Decision Making</h6>
+                  <p className="mt-2 mb-4 text-blueGray-500">
+                    Use real-time analytics and predictive modeling to optimize production, reduce waste, and anticipate market demands. Leverage technology to identify inefficiencies and forecast trends, enabling proactive adjustments and informed strategic decisions
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="px-4 py-5 flex-auto">
+                  <div className="text-white bg-emerald-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                    <i className="fas fa-robot"></i>
+                  </div>
+                  <h6 className="text-xl font-semibold">AI and Analytics</h6>
+                  <p className="mt-2 mb-4 text-blueGray-500">
+                    Harnessing machine learning algorithms and advanced analytics to automate production workflows, predict maintenance needs, and uncover hidden patterns in manufacturing data for enhanced efficiency and product quality
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="px-4 py-5 flex-auto">
+                  <div className="text-white bg-lime-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                    <i className="fas fa-sync-alt"></i>
+                  </div>
+                  <h6 className="text-xl font-semibold">Continuous Improvement</h6>
+                  <p className="mt-2 mb-4 text-blueGray-500">
+                    Foster a culture of ongoing refinement in manufacturing techniques, quality control, and supply chain management to stay ahead of industry standards and drive innovation. Emphasize continuous learning and process enhancement, empowering teams to identify and implement improvements
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="relative pb-20 bg-blueGray-200">
+      {/* <section className="py-10 container mx-auto px-7">
+        <div className="bg-white w-full shadow-lg rounded-lg p-10">
+          <img className="w-ful block m-auto" src="https://i.ibb.co/QHL3gfq/shared-image.jpg" alt="Modules" />
+        </div>
+      </section> */}
+
+      <section className="container mx-auto px-7 text-center">
+        <h3 className="text-3xl mb-5 font-semibold leading-normal">Upstream and Downstream Supply Chain</h3>
+        <div className="bg-white w-full shadow-lg rounded-lg p-10 mb-20">
+
+          <img className="w-ful block m-auto" src="../images/SupplyChainFlow.svg" alt="Modules" />
+        </div>
+        {/*<h3 className="text-3xl mt-10 font-semibold leading-normal">Supplychain Management Modules</h3>
+         <div className="bg-white w-full shadow-lg rounded-lg p-10 mt-5 mb-20">
+          <EightShapeFlow />
+        </div> */}
+      </section>
+
+      {/* <section className="relative pb-20 bg-blueGray-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full md:w-4/12 px-4 text-center">
@@ -114,12 +175,8 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
-
-          <div className="flex flex-wrap items-center my-10">
-            <EightShapeFlow />
-          </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="relative pb-20 bg-cyan-950 text-white py-10">
         <div
@@ -155,7 +212,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-database"></i>
                     </span>
                   </div>
                   <div>
@@ -169,7 +226,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-database"></i>
                     </span>
                   </div>
                   <div>
@@ -183,7 +240,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-database"></i>
                     </span>
                   </div>
                   <div>
@@ -197,7 +254,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-database"></i>
                     </span>
                   </div>
                   <div>
@@ -225,7 +282,7 @@ const LandingPage = () => {
                       onClick={() => toggleModal()}
                       // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                       className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                      // target="new"
+                    // target="new"
                     >
                       Click here for Demo
                     </a>
@@ -276,7 +333,7 @@ const LandingPage = () => {
                           onClick={() => toggleModal()}
                           // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                           className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                          // target="new"
+                        // target="new"
                         >
                           Click here for Demo
                         </a>
@@ -300,7 +357,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fas fa-smile"></i>
                         </span>
                       </div>
                       <div>
@@ -314,7 +371,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fas fa-smile"></i>
                         </span>
                       </div>
                       <div>
@@ -328,7 +385,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <i className="fas fa-smile"></i>
                         </span>
                       </div>
                       <div>
@@ -378,7 +435,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-chart-line"></i>
                     </span>
                   </div>
                   <div>
@@ -392,7 +449,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-chart-line"></i>
                     </span>
                   </div>
                   <div>
@@ -406,7 +463,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-chart-line"></i>
                     </span>
                   </div>
                   <div>
@@ -420,7 +477,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-chart-line"></i>
                     </span>
                   </div>
                   <div>
@@ -449,7 +506,7 @@ const LandingPage = () => {
                         onClick={() => toggleModal()}
                         // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                         className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                        // target="new"
+                      // target="new"
                       >
                         Click here for Demo
                       </a>
@@ -501,7 +558,7 @@ const LandingPage = () => {
                           onClick={() => toggleModal()}
                           // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                           className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                          // target="new"
+                        // target="new"
                         >
                           Click here for Demo
                         </a>
@@ -525,7 +582,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fas fa-boxes"></i>
                         </span>
                       </div>
                       <div>
@@ -539,7 +596,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fas fa-boxes"></i>
                         </span>
                       </div>
                       <div>
@@ -553,7 +610,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <i className="fas fa-boxes"></i>
                         </span>
                       </div>
                       <div>
@@ -603,7 +660,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-robot"></i>
                     </span>
                   </div>
                   <div>
@@ -617,7 +674,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fab fa-html5"></i>
+                      <i className="fas fa-robot"></i>
                     </span>
                   </div>
                   <div>
@@ -631,7 +688,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-robot"></i>
                     </span>
                   </div>
                   <div>
@@ -645,7 +702,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-robot"></i>
                     </span>
                   </div>
                   <div>
@@ -674,7 +731,7 @@ const LandingPage = () => {
                         onClick={() => toggleModal()}
                         // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                         className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                        // target="new"
+                      // target="new"
                       >
                         Click here for Demo
                       </a>
@@ -725,7 +782,7 @@ const LandingPage = () => {
                           onClick={() => toggleModal()}
                           // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                           className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                          // target="new"
+                        // target="new"
                         >
                           Click here for Demo
                         </a>
@@ -749,7 +806,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fa-solid fa-gas-pump"></i>
                         </span>
                       </div>
                       <div>
@@ -763,7 +820,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fa-solid fa-gas-pump"></i>
                         </span>
                       </div>
                       <div>
@@ -777,7 +834,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <i className="fa-solid fa-gas-pump"></i>
                         </span>
                       </div>
                       <div>
@@ -791,7 +848,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <i className="fa-solid fa-gas-pump"></i>
                         </span>
                       </div>
                       <div>
@@ -830,7 +887,7 @@ const LandingPage = () => {
         <div className="flex flex-wrap items-center">
           <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
             <div className="text-cyan-950 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-              <i className="fas fa-tags text-xl"></i>
+              <i className="fas fa-file-invoice-dollar text-xl"></i>
             </div>
             <h3 className="text-3xl mb-2 font-semibold leading-normal">Place Makers Ai</h3>
             <p className="text-md mt-2">
@@ -841,7 +898,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-file-invoice-dollar"></i>
                     </span>
                   </div>
                   <div>
@@ -854,7 +911,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-file-invoice-dollar"></i>
                     </span>
                   </div>
                   <div>
@@ -868,7 +925,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-file-invoice-dollar"></i>
                     </span>
                   </div>
                   <div>
@@ -882,7 +939,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-file-invoice-dollar"></i>
                     </span>
                   </div>
                   <div>
@@ -911,7 +968,7 @@ const LandingPage = () => {
                         onClick={() => toggleModal()}
                         // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                         className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                        // target="new"
+                      // target="new"
                       >
                         Click here for Demo
                       </a>
@@ -963,7 +1020,7 @@ const LandingPage = () => {
                           onClick={() => toggleModal()}
                           // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                           className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                          // target="new"
+                        // target="new"
                         >
                           Click here for Demo
                         </a>
@@ -987,7 +1044,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fa-solid fa-file-invoice"></i>
                         </span>
                       </div>
                       <div>
@@ -1001,7 +1058,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fa-solid fa-file-invoice"></i>
                         </span>
                       </div>
                       <div>
@@ -1015,7 +1072,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <i className="fa-solid fa-file-invoice"></i>
                         </span>
                       </div>
                       <div>
@@ -1029,7 +1086,7 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <i className="fa-solid fa-file-invoice"></i>
                         </span>
                       </div>
                       <div>
@@ -1079,7 +1136,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-tags"></i>
                     </span>
                   </div>
                   <div>
@@ -1092,7 +1149,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-tags"></i>
                     </span>
                   </div>
                   <div>
@@ -1106,7 +1163,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-tags"></i>
                     </span>
                   </div>
                   <div>
@@ -1120,7 +1177,7 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="far fa-paper-plane"></i>
+                      <i className="fas fa-tags"></i>
                     </span>
                   </div>
                   <div>
@@ -1149,7 +1206,7 @@ const LandingPage = () => {
                         onClick={() => toggleModal()}
                         // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
                         className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                        // target="new"
+                      // target="new"
                       >
                         Click here for Demo
                       </a>
