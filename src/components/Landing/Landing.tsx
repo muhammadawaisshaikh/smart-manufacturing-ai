@@ -889,9 +889,9 @@ const LandingPage = () => {
             <div className="text-cyan-950 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
               <i className="fas fa-file-invoice-dollar text-xl"></i>
             </div>
-            <h3 className="text-3xl mb-2 font-semibold leading-normal">Place Makers Ai</h3>
+            <h3 className="text-3xl mb-2 font-semibold leading-normal">Supply Chain Provenance</h3>
             <p className="text-md mt-2">
-              Our AI tool provides comprehensive insights into bills of quantity, bills of materials, and more. It offers a detailed dashboard for visibility into the rank and usage of every category-wise entity, empowering you with data-driven decisions to optimize your inventory and operations. Enhance your efficiency and gain a competitive edge with our advanced AI solutions.
+              Ensure supply chain transparency with our provenance solution. By tracking product origins, transportation routes, and handling processes, we provide real-time visibility into your supply chain. Our scalable platform adapts to your business complexity, ensuring compliance and risk mitigation. Seamlessly integrate into existing systems for streamlined tracking and traceability. Say goodbye to opaque supply chains and hello to trusted provenance data that enhances brand reputation and customer trust
             </p>
             <ul className="list-none mt-6">
               <li className="py-2">
@@ -902,7 +902,7 @@ const LandingPage = () => {
                     </span>
                   </div>
                   <div>
-                    <h4 className="text-blueGray-500">Apply AI-based optimization algorithms to determine the insights of bills and much more.
+                    <h4 className="text-blueGray-500">By tracking product origins, transportation routes, and handling processes, we provide real-time visibility into your supply chain.
                     </h4>
                   </div>
                 </div>
@@ -930,7 +930,7 @@ const LandingPage = () => {
                   </div>
                   <div>
                     <h4 className="text-blueGray-500">
-                      Empowering you with data-driven decisions to optimize your inventory and operations.
+                      Our scalable platform adapts to your business complexity, ensuring compliance and risk mitigation.
                     </h4>
                   </div>
                 </div>
@@ -944,7 +944,7 @@ const LandingPage = () => {
                   </div>
                   <div>
                     <h4 className="text-blueGray-500">
-                      Our AI tool provides comprehensive insights into bills of quantity, bills of materials, and more.
+                      Seamlessly integrate into existing systems for streamlined tracking and traceability.
                     </h4>
                   </div>
                 </div>
@@ -953,10 +953,10 @@ const LandingPage = () => {
           </div>
           <div className="w-full md:w-4/12 px-4 mr-auto ml-auto pb-20">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
-              <a href="https://royal-cyber-ai.vercel.app/videos/place-makers.mp4">
+              <a href="http://119.63.131.228/video/v1/Supply-chain-Provenance.mp4">
                 <img
                   alt="..."
-                  src="https://royal-cyber-ai.vercel.app/images/demo-videos/place-makers.png"
+                  src="https://royal-cyber-ai.vercel.app/images/demo-videos/food-supplychain.png"
                   className="w-full align-middle rounded-t-lg"
                 />
               </a>
