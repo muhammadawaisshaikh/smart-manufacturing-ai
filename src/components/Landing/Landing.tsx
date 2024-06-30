@@ -178,6 +178,7 @@ const LandingPage = () => {
         </div>
       </section> */}
 
+      {/* Sales Forecast */}
       <section className="relative pb-20 bg-cyan-950 text-white py-10">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20 "
@@ -293,114 +294,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      <section className="relative py-20 bg-white">
-        <div
-          className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: "translateZ(0)" }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
 
-        <div className="container mx-auto px-4 py-10">
-          <div className="items-center flex flex-wrap">
-            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
-                <a href="https://royal-cyber-ai.vercel.app/videos/customer-sentiment-analysis.mp4">
-                  <img
-                    alt="..."
-                    src="https://royal-cyber-ai.vercel.app/images/demo-videos/sentiment-analysis.png"
-                    className="w-full align-middle rounded-t-lg"
-                  />
-                </a>
-                <blockquote className="relative mb-4">
-                  <div className="flex flex-wrap items-center">
-                    <div className="w-full md:w-full mx-auto text-center">
-                      <div className="text-sm text-cyan-950 font-semibold">
-                        <a
-                          onClick={() => toggleModal()}
-                          // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
-                          className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                        // target="new"
-                        >
-                          Click here for Demo
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-            </div>
-            <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
-              <div className="md:pr-12">
-                <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
-                  <i className="fas fa-smile text-xl"></i>
-                </div>
-                <h3 className="text-3xl font-semibold">Sentiment Analysis</h3>
-                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  Elevate customer insights with our AI-powered sentiment analysis tool. By parsing customer feedback from various channels, including social media, reviews, and surveys, we provide real-time sentiment analysis. Our scalable solution adapts to your evolving needs, uncovering actionable insights to enhance customer satisfaction.
-                </p>
-                <ul className="list-none mt-6">
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-smile"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Multi-channel feedback collection: social media, customer service, product reviews, and focus groups
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-smile"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Advanced natural language processing for accurate sentiment scoring
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-smile"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Text mining to identify key product features and concerns
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Inventory Optimization */}
       <section className="relative pb-20 bg-cyan-950 text-white py-10">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20 "
@@ -518,114 +413,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      <section className="relative py-20 bg-white py-10">
-        <div
-          className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: "translateZ(0)" }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-white fill-white"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
 
-        <div className="container mx-auto px-4 py-10">
-          <div className="items-center flex flex-wrap">
-            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white-500">
-                <a href="https://royal-cyber-ai.vercel.app/videos/preventive-maintenance.mp4">
-                  <img
-                    alt="..."
-                    src="https://royal-cyber-ai.vercel.app/images/demo-videos/predictive-maintainence.png"
-                    className="w-full align-middle rounded-t-lg"
-                  />
-                </a>
-                <blockquote className="relative mb-4">
-                  <div className="flex flex-wrap items-center">
-                    <div className="w-full md:w-full mx-auto text-center">
-                      <div className="text-sm text-cyan-950 font-semibold">
-                        <a
-                          onClick={() => toggleModal()}
-                          // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
-                          className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
-                        // target="new"
-                        >
-                          Click here for Demo
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-            </div>
-            <div className="w-full md:w-5/12 ml-auto mr-auto px-4 pb-20">
-              <div className="md:pr-12">
-                <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
-                  <i className="fas fa-boxes text-xl"></i>
-                </div>
-                <h3 className="text-3xl font-semibold">Predictive Maintenance</h3>
-                <p className="text-md font-light mt-2 text-black">
-                  Enhance equipment reliability with our AI-driven preventive maintenance solution. By analyzing historical data, usage patterns, and equipment performance, we predict maintenance needs before issues arise. Our scalable platform adapts to your equipment fleet, ensuring optimal uptime and reducing costly downtime.
-                </p>
-                <ul className="list-none mt-6">
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-boxes"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Our scalable platform adapts to your equipment fleet, ensuring optimal uptime and reducing costly downtime.
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-boxes"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Seamlessly integrate into existing systems for a seamless maintenance workflow.
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fas fa-boxes"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Say goodbye to unexpected breakdowns and hello to proactive maintenance strategies that save time and money.
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Financial Chatbot */}
       <section className="relative pb-20 bg-cyan-950 text-white py-10">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20 "
@@ -743,7 +532,9 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      <section className="relative py-20 bg-white py-10">
+
+      {/* Sentiment Analysis */}
+      <section className="relative py-20 bg-white">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style={{ transform: "translateZ(0)" }}
@@ -758,19 +549,20 @@ const LandingPage = () => {
             y="0"
           >
             <polygon
-              className="text-white fill-white"
+              className="text-white fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
-        <div className="container mx-auto px-4">
+
+        <div className="container mx-auto px-4 py-10">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white-500">
-                <a href="https://royal-cyber-ai.vercel.app/videos/fuel-management.mp4">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+                <a href="https://royal-cyber-ai.vercel.app/videos/customer-sentiment-analysis.mp4">
                   <img
                     alt="..."
-                    src="https://royal-cyber-ai.vercel.app/images/demo-videos/fuel-management.png"
+                    src="https://royal-cyber-ai.vercel.app/images/demo-videos/sentiment-analysis.png"
                     className="w-full align-middle rounded-t-lg"
                   />
                 </a>
@@ -792,26 +584,26 @@ const LandingPage = () => {
                 </blockquote>
               </div>
             </div>
-            <div className="w-full md:w-5/12 ml-auto mr-auto px-4 pb-20">
+            <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div className="md:pr-12">
                 <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
-                  <i className="fa-solid fa-gas-pump"></i>
+                  <i className="fas fa-smile text-xl"></i>
                 </div>
-                <h3 className="text-3xl font-semibold">Fuel Management</h3>
-                <p className="text-md mt-2 text-justify">
-                  Leverage data analytics and natural language processing to review and compare fuel consumption. Our Fuel Management System is designed to optimize fuel consumption and reduce costs for vehicle fleets by providing real-time fuel monitoring, consumption reports, and driver behavior analysis. It integrates with GPS for comprehensive vehicle tracking, enabling route optimization and proactive maintenance scheduling. Benefits include cost reduction, enhanced operational efficiency, increased security, and a reduced environmental impact. Ideal for logistics companies.
+                <h3 className="text-3xl font-semibold">Sentiment Analysis</h3>
+                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                  Elevate customer insights with our AI-powered sentiment analysis tool. By parsing customer feedback from various channels, including social media, reviews, and surveys, we provide real-time sentiment analysis. Our scalable solution adapts to your evolving needs, uncovering actionable insights to enhance customer satisfaction.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fa-solid fa-gas-pump"></i>
+                          <i className="fas fa-smile"></i>
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Designed to optimize fuel consumption and reduce costs for vehicle fleets using Ai by providing real-time data.
+                          Multi-channel feedback collection: social media, customer service, product reviews, and focus groups
                         </h4>
                       </div>
                     </div>
@@ -820,12 +612,12 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fa-solid fa-gas-pump"></i>
+                          <i className="fas fa-smile"></i>
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Advanced natural language processing for accurate vehicle fleets fuel consumption.
+                          Advanced natural language processing for accurate sentiment scoring
                         </h4>
                       </div>
                     </div>
@@ -834,26 +626,12 @@ const LandingPage = () => {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fa-solid fa-gas-pump"></i>
+                          <i className="fas fa-smile"></i>
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          It integrates with GPS for comprehensive vehicle tracking, enabling route optimization and proactive maintenance scheduling.
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                          <i className="fa-solid fa-gas-pump"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Benefits include cost reduction, enhanced operational efficiency, increased security, and a reduced environmental impact.
+                          Text mining to identify key product features and concerns
                         </h4>
                       </div>
                     </div>
@@ -864,6 +642,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Price Predictor */}
       <section className="relative pb-20 bg-cyan-950 text-white py-10">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20 "
@@ -887,22 +667,22 @@ const LandingPage = () => {
         <div className="flex flex-wrap items-center">
           <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
             <div className="text-cyan-950 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-              <i className="fas fa-file-invoice-dollar text-xl"></i>
+              <i className="fas fa-tags text-xl"></i>
             </div>
-            <h3 className="text-3xl mb-2 font-semibold leading-normal">Supply Chain Provenance</h3>
+            <h3 className="text-3xl mb-2 font-semibold leading-normal">Price Predictor</h3>
             <p className="text-md mt-2">
-              Ensure supply chain transparency with our provenance solution. By tracking product origins, transportation routes, and handling processes, we provide real-time visibility into your supply chain. Our scalable platform adapts to your business complexity, ensuring compliance and risk mitigation. Seamlessly integrate into existing systems for streamlined tracking and traceability. Say goodbye to opaque supply chains and hello to trusted provenance data that enhances brand reputation and customer trust
+              Our AI-powered Price Predictor tool leverages advanced algorithms and natural language processing (NLP) to forecast future product prices. It provides comprehensive insights into pricing trends, market dynamics, and product demand. With a detailed dashboard, you'll gain visibility into price fluctuations, product categories, and market analysis. Empower your business with data-driven decisions to optimize pricing strategies and enhance profitability using our cutting-edge AI solutions for price prediction.
             </p>
             <ul className="list-none mt-6">
               <li className="py-2">
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-file-invoice-dollar"></i>
+                      <i className="fas fa-tags"></i>
                     </span>
                   </div>
                   <div>
-                    <h4 className="text-blueGray-500">By tracking product origins, transportation routes, and handling processes, we provide real-time visibility into your supply chain.
+                    <h4 className="text-blueGray-500">Our AI-powered Price Predictor tool leverages advanced algorithms and natural language processing (NLP) to forecast future product prices.
                     </h4>
                   </div>
                 </div>
@@ -911,12 +691,12 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-file-invoice-dollar"></i>
+                      <i className="fas fa-tags"></i>
                     </span>
                   </div>
                   <div>
                     <h4 className="text-blueGray-500">
-                      Automate comprehensive insights processes with this Ai tool.
+                      It provides comprehensive insights into pricing trends, market dynamics, and product demand.
                     </h4>
                   </div>
                 </div>
@@ -925,12 +705,12 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-file-invoice-dollar"></i>
+                      <i className="fas fa-tags"></i>
                     </span>
                   </div>
                   <div>
                     <h4 className="text-blueGray-500">
-                      Our scalable platform adapts to your business complexity, ensuring compliance and risk mitigation.
+                      With a detailed dashboard, you'll gain visibility into price fluctuations, product categories, and market analysis.
                     </h4>
                   </div>
                 </div>
@@ -939,12 +719,12 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-file-invoice-dollar"></i>
+                      <i className="fas fa-tags"></i>
                     </span>
                   </div>
                   <div>
                     <h4 className="text-blueGray-500">
-                      Seamlessly integrate into existing systems for streamlined tracking and traceability.
+                      Empower your business with data-driven decisions to optimize pricing strategies and enhance profitability using our cutting-edge AI solutions for price prediction.
                     </h4>
                   </div>
                 </div>
@@ -953,10 +733,10 @@ const LandingPage = () => {
           </div>
           <div className="w-full md:w-4/12 px-4 mr-auto ml-auto pb-20">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
-              <a href="http://119.63.131.228/video/v1/Supply-chain-Provenance.mp4">
+              <a href="https://royal-cyber-ai.vercel.app/videos/price-predictor.mp4">
                 <img
                   alt="..."
-                  src="https://royal-cyber-ai.vercel.app/images/demo-videos/food-supplychain.png"
+                  src="https://royal-cyber-ai.vercel.app/images/demo-videos/price-predictor.png"
                   className="w-full align-middle rounded-t-lg"
                 />
               </a>
@@ -980,6 +760,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Contract Management */}
       <section className="relative py-20 bg-white py-10">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
@@ -1102,6 +884,8 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Supply Chain Finance */}
       <section className="relative pb-20 bg-cyan-950 text-white py-10">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20 "
@@ -1125,22 +909,22 @@ const LandingPage = () => {
         <div className="flex flex-wrap items-center">
           <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
             <div className="text-cyan-950 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-              <i className="fas fa-tags text-xl"></i>
+              <i className="fas fa-file-invoice-dollar text-xl"></i>
             </div>
-            <h3 className="text-3xl mb-2 font-semibold leading-normal">Price Predictor</h3>
+            <h3 className="text-3xl mb-2 font-semibold leading-normal">Supply Chain Financing</h3>
             <p className="text-md mt-2">
-              Our AI-powered Price Predictor tool leverages advanced algorithms and natural language processing (NLP) to forecast future product prices. It provides comprehensive insights into pricing trends, market dynamics, and product demand. With a detailed dashboard, you'll gain visibility into price fluctuations, product categories, and market analysis. Empower your business with data-driven decisions to optimize pricing strategies and enhance profitability using our cutting-edge AI solutions for price prediction.
+              Secure your supply chain finances with our AI-driven invoice amount retention solution. By analyzing payment histories, contract terms, and market trends, we optimize invoice processing for accurate retention amounts. Our scalable platform adapts to your vendor relationships, ensuring fair and consistent retention practices. Seamlessly integrate into existing financial systems for streamlined invoice management. Say goodbye to payment disputes and hello to efficient retention strategies that protect your bottom line.
             </p>
             <ul className="list-none mt-6">
               <li className="py-2">
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-tags"></i>
+                      <i className="fas fa-file-invoice-dollar"></i>
                     </span>
                   </div>
                   <div>
-                    <h4 className="text-blueGray-500">Our AI-powered Price Predictor tool leverages advanced algorithms and natural language processing (NLP) to forecast future product prices.
+                    <h4 className="text-blueGray-500">Secure your supply chain finances with our AI-driven invoice amount retention solution. By analyzing payment histories, contract terms, and market trends
                     </h4>
                   </div>
                 </div>
@@ -1149,12 +933,12 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-tags"></i>
+                      <i className="fas fa-file-invoice-dollar"></i>
                     </span>
                   </div>
                   <div>
                     <h4 className="text-blueGray-500">
-                      It provides comprehensive insights into pricing trends, market dynamics, and product demand.
+                      We optimize invoice processing for accurate retention amounts.
                     </h4>
                   </div>
                 </div>
@@ -1163,12 +947,12 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-tags"></i>
+                      <i className="fas fa-file-invoice-dollar"></i>
                     </span>
                   </div>
                   <div>
                     <h4 className="text-blueGray-500">
-                      With a detailed dashboard, you'll gain visibility into price fluctuations, product categories, and market analysis.
+                      Our scalable platform adapts to your vendor relationships, ensuring fair and consistent retention practices.
                     </h4>
                   </div>
                 </div>
@@ -1177,12 +961,12 @@ const LandingPage = () => {
                 <div className="flex items-center">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-                      <i className="fas fa-tags"></i>
+                      <i className="fas fa-file-invoice-dollar"></i>
                     </span>
                   </div>
                   <div>
                     <h4 className="text-blueGray-500">
-                      Empower your business with data-driven decisions to optimize pricing strategies and enhance profitability using our cutting-edge AI solutions for price prediction.
+                      Seamlessly integrate into existing financial systems for streamlined invoice management.
                     </h4>
                   </div>
                 </div>
@@ -1191,10 +975,10 @@ const LandingPage = () => {
           </div>
           <div className="w-full md:w-4/12 px-4 mr-auto ml-auto pb-20">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
-              <a href="https://royal-cyber-ai.vercel.app/videos/price-predictor.mp4">
+              <a href="http://119.63.131.228/video/v1/Supply-chain-Retention.mp4">
                 <img
                   alt="..."
-                  src="https://royal-cyber-ai.vercel.app/images/demo-videos/price-predictor.png"
+                  src="https://royal-cyber-ai.vercel.app/images/demo-videos/supplier-retention.png"
                   className="w-full align-middle rounded-t-lg"
                 />
               </a>
@@ -1218,6 +1002,358 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Fuel Management */}
+      <section className="relative py-20 bg-white py-10">
+        <div
+          className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+          style={{ transform: "translateZ(0)" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-white fill-white"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div className="container mx-auto px-4">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white-500">
+                <a href="https://royal-cyber-ai.vercel.app/videos/fuel-management.mp4">
+                  <img
+                    alt="..."
+                    src="https://royal-cyber-ai.vercel.app/images/demo-videos/fuel-management.png"
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                </a>
+                <blockquote className="relative mb-4">
+                  <div className="flex flex-wrap items-center">
+                    <div className="w-full md:w-full mx-auto text-center">
+                      <div className="text-sm text-cyan-950 font-semibold">
+                        <a
+                          onClick={() => toggleModal()}
+                          // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
+                          className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
+                        // target="new"
+                        >
+                          Click here for Demo
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div className="w-full md:w-5/12 ml-auto mr-auto px-4 pb-20">
+              <div className="md:pr-12">
+                <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
+                  <i className="fa-solid fa-gas-pump"></i>
+                </div>
+                <h3 className="text-3xl font-semibold">Fuel Management</h3>
+                <p className="text-md mt-2 text-justify">
+                  Leverage data analytics and natural language processing to review and compare fuel consumption. Our Fuel Management System is designed to optimize fuel consumption and reduce costs for vehicle fleets by providing real-time fuel monitoring, consumption reports, and driver behavior analysis. It integrates with GPS for comprehensive vehicle tracking, enabling route optimization and proactive maintenance scheduling. Benefits include cost reduction, enhanced operational efficiency, increased security, and a reduced environmental impact. Ideal for logistics companies.
+                </p>
+                <ul className="list-none mt-6">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fa-solid fa-gas-pump"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Designed to optimize fuel consumption and reduce costs for vehicle fleets using Ai by providing real-time data.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fa-solid fa-gas-pump"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Advanced natural language processing for accurate vehicle fleets fuel consumption.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fa-solid fa-gas-pump"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          It integrates with GPS for comprehensive vehicle tracking, enabling route optimization and proactive maintenance scheduling.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fa-solid fa-gas-pump"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Benefits include cost reduction, enhanced operational efficiency, increased security, and a reduced environmental impact.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Predictive Maintenance */}
+      <section className="relative py-20 bg-white py-10">
+        <div
+          className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+          style={{ transform: "translateZ(0)" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-white fill-white"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div className="container mx-auto px-4 py-10">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white-500">
+                <a href="https://royal-cyber-ai.vercel.app/videos/preventive-maintenance.mp4">
+                  <img
+                    alt="..."
+                    src="https://royal-cyber-ai.vercel.app/images/demo-videos/predictive-maintainence.png"
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                </a>
+                <blockquote className="relative mb-4">
+                  <div className="flex flex-wrap items-center">
+                    <div className="w-full md:w-full mx-auto text-center">
+                      <div className="text-sm text-cyan-950 font-semibold">
+                        <a
+                          onClick={() => toggleModal()}
+                          // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
+                          className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
+                        // target="new"
+                        >
+                          Click here for Demo
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div className="w-full md:w-5/12 ml-auto mr-auto px-4 pb-20">
+              <div className="md:pr-12">
+                <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
+                  <i className="fas fa-boxes text-xl"></i>
+                </div>
+                <h3 className="text-3xl font-semibold">Predictive Maintenance</h3>
+                <p className="text-md font-light mt-2 text-black">
+                  Enhance equipment reliability with our AI-driven preventive maintenance solution. By analyzing historical data, usage patterns, and equipment performance, we predict maintenance needs before issues arise. Our scalable platform adapts to your equipment fleet, ensuring optimal uptime and reducing costly downtime.
+                </p>
+                <ul className="list-none mt-6">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fas fa-boxes"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Our scalable platform adapts to your equipment fleet, ensuring optimal uptime and reducing costly downtime.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fas fa-boxes"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Seamlessly integrate into existing systems for a seamless maintenance workflow.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fas fa-boxes"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Say goodbye to unexpected breakdowns and hello to proactive maintenance strategies that save time and money.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Supply Chain Provenance */}
+      <section className="relative pb-20 bg-cyan-950 text-white py-10">
+        <div
+          className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20 "
+          style={{ transform: "translateZ(0)" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-white fill-cyan-950 text-white"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div className="flex flex-wrap items-center">
+          <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
+            <div className="text-cyan-950 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+              <i className="fas fa-file-invoice-dollar text-xl"></i>
+            </div>
+            <h3 className="text-3xl mb-2 font-semibold leading-normal">Supply Chain Provenance</h3>
+            <p className="text-md mt-2">
+              Ensure supply chain transparency with our provenance solution. By tracking product origins, transportation routes, and handling processes, we provide real-time visibility into your supply chain. Our scalable platform adapts to your business complexity, ensuring compliance and risk mitigation. Seamlessly integrate into existing systems for streamlined tracking and traceability. Say goodbye to opaque supply chains and hello to trusted provenance data that enhances brand reputation and customer trust
+            </p>
+            <ul className="list-none mt-6">
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                      <i className="fas fa-file-invoice-dollar"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 className="text-blueGray-500">By tracking product origins, transportation routes, and handling processes, we provide real-time visibility into your supply chain.
+                    </h4>
+                  </div>
+                </div>
+              </li>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                      <i className="fas fa-file-invoice-dollar"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 className="text-blueGray-500">
+                      Automate comprehensive insights processes with this Ai tool.
+                    </h4>
+                  </div>
+                </div>
+              </li>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                      <i className="fas fa-file-invoice-dollar"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 className="text-blueGray-500">
+                      Our scalable platform adapts to your business complexity, ensuring compliance and risk mitigation.
+                    </h4>
+                  </div>
+                </div>
+              </li>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                      <i className="fas fa-file-invoice-dollar"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 className="text-blueGray-500">
+                      Seamlessly integrate into existing systems for streamlined tracking and traceability.
+                    </h4>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div className="w-full md:w-4/12 px-4 mr-auto ml-auto pb-20">
+            <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+              <a href="http://119.63.131.228/video/v1/Supply-chain-Provenance.mp4">
+                <img
+                  alt="..."
+                  src="https://royal-cyber-ai.vercel.app/images/demo-videos/food-supplychain.png"
+                  className="w-full align-middle rounded-t-lg"
+                />
+              </a>
+              <blockquote className="relative mb-4">
+                <div className="flex flex-wrap items-center">
+                  <div className="w-full md:w-full mx-auto text-center">
+                    <div className="text-sm text-cyan-950 font-semibold">
+                      <a
+                        onClick={() => toggleModal()}
+                        // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
+                        className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
+                      // target="new"
+                      >
+                        Click here for Demo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="relative py-20 bg-white">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
