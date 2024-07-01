@@ -1354,6 +1354,130 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* Predictive Maintenance */}
+      <section className="relative py-20 bg-white py-10">
+        <div
+          className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+          style={{ transform: "translateZ(0)" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-white fill-white"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div className="container mx-auto px-4 py-10">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white-500">
+                <a href="https://royal-cyber-ai.vercel.app/videos/airline-food-beverage-catering.mp4">
+                  <img
+                    alt="..."
+                    src="https://royal-cyber-ai.vercel.app/images/demo-videos/airline-food-beverage-catering.png"
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                </a>
+                <blockquote className="relative mb-4">
+                  <div className="flex flex-wrap items-center">
+                    <div className="w-full md:w-full mx-auto text-center">
+                      <div className="text-sm text-cyan-950 font-semibold">
+                        <a
+                          onClick={() => toggleModal()}
+                          // href="https://royal-cyber-ai.vercel.app/videos/sales-forecast.mp4"
+                          className="text-cyan-800 hover:text-cyan-800 py-6 block text-lg cursor-pointer"
+                        // target="new"
+                        >
+                          Click here for Demo
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <div className="w-full md:w-5/12 ml-auto mr-auto px-4 pb-20">
+              <div className="md:pr-12">
+                <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
+                  <i className="fas fa-boxes text-xl"></i>
+                </div>
+                <h3 className="text-3xl font-semibold">Catering services Ai</h3>
+                <p className="text-md font-light mt-2 text-black">
+                  Our AI-driven catering service provides comprehensive insights into demand, inventory optimization along with flights, meals, meal trends along with cost of saving and, and more for catering into airlines. It offers a detailed dashboard with visibility into contract types and analytics, supplier ranking, and contract consumption. Gain visibility of products by category and supplier, along with detailed guidance on contract summaries. Empower your operations with data-driven decisions to optimize your contracts and enhance efficiency.
+                </p>
+                <ul className="list-none mt-6">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fas fa-boxes"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          It offers a detailed dashboard with visibility into demand, inventory optimization and analytics, supplier ranking, and contract consumption.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fas fa-boxes"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Our AI-driven catering service provides comprehensive insights into flights, meals, meal trends along with cost of saving and, and more for catering into airlines.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fas fa-boxes"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Gain visibility of products by category and supplier, along with detailed guidance on demand & inventory optimization summaries.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <i className="fas fa-boxes"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          In addition, our solutions encompass in-flight services and beyond, covering brands across all Skysales retail, meal costs, maximum orders placed, and in-flight durations.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="relative py-20 bg-white">
         <div
           className="bottom-auto top-1 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
